@@ -38,6 +38,7 @@ const App = () => {
             <Route path="/rooms" element={<Rooms />} />
             <Route path="/self-destruct" element={<SelfDestruct />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/transfer" element={<Transfer />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
